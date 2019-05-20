@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android Workshop</string>
+    <string name="workshop_continue">Continuar</string>
 </resources>
