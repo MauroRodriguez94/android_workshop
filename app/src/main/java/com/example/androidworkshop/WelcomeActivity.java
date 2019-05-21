@@ -11,7 +11,9 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
+        String userName = getIntent().getStringExtra("user_name");
+
         TextView welcomeMessageView = findViewById(R.id.welcome_text);
-        welcomeMessageView.setText(R.string.workshop_welcome);
+        welcomeMessageView.setText(getString(R.string.workshop_welcome, userName));
     }
 }

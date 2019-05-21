@@ -26,13 +26,14 @@ public class LoginActivity extends AppCompatActivity {
                 String userName = userNameInput.getText().toString();
                 String password = passwordInput.getText().toString();
                 Log.d("Workshop Log", "Boton clickeado: " + userName + " - " + password);
-                goToWelcomeScreen();
+                goToWelcomeScreen(userName);
             }
         });
     }
 
-    private void goToWelcomeScreen() {
+    private void goToWelcomeScreen(String userName) {
         Intent welcomeIntent = new Intent(this, WelcomeActivity.class);
+        welcomeIntent.putExtra("user_name", userName);
         startActivity(welcomeIntent);
     }
 }
