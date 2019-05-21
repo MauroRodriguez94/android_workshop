@@ -48,17 +48,17 @@ Loggear el contenido de los inputs
 ### Parte 8 - Intents
 Crear una nueva activity vacía llamada "WelcomeActivity" <br>
 En el click del botón, armar un intent e ir a la nueva pantalla. 
-https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws8.gif
+https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws8.gif?raw=true
 
 ### Parte 9 - Text View
 Agregar un text view en la nueva pantalla <br>
 Desde código, settear el string de bienvenida
-https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws9.png
+https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws9.png?raw=true
 
 ### Parte 10 - Intent Extras
 Desde la primer pantalla, pasar el nombre de usuario mediante un extra. <br>
 Desde la segunda pantalla, obtener el extra y mostrarlo en el mensaje de bienvenida.
-https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws10.png
+https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws10.png?raw=true
 
 
 ## Proximamente: 
