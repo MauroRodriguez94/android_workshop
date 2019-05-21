@@ -12,12 +12,22 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/workshop_field_margin"/>
+        android:layout_marginBottom="@dimen/workshop_field_margin"
+        android:hint="@string/workshop_user_name"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:fadingEdge="horizontal"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/workshop_field_margin"/>
+        android:layout_marginBottom="@dimen/workshop_field_margin"
+        android:hint="@string/workshop_password"
+        android:imeOptions="actionGo"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:fadingEdge="horizontal"/>
 
     <Button
         android:layout_width="match_parent"
