@@ -23,5 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/workshop_field_margin"
-        android:text="@string/workshop_continue"/>
+        android:text="@string/workshop_continue"
+        android:background="@color/colorAccent"
+        android:textColor="@color/workshop_white"/>
 </LinearLayout>
