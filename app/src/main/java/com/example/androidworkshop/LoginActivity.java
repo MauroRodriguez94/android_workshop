@@ -1,5 +1,6 @@
 package com.example.androidworkshop;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -25,7 +26,13 @@ public class LoginActivity extends AppCompatActivity {
                 String userName = userNameInput.getText().toString();
                 String password = passwordInput.getText().toString();
                 Log.d("Workshop Log", "Boton clickeado: " + userName + " - " + password);
+                goToWelcomeScreen();
             }
         });
+    }
+
+    private void goToWelcomeScreen() {
+        Intent welcomeIntent = new Intent(this, WelcomeActivity.class);
+        startActivity(welcomeIntent);
     }
 }
