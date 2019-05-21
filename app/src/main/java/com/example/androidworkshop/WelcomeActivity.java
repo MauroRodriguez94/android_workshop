@@ -2,6 +2,7 @@ package com.example.androidworkshop;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class WelcomeActivity extends AppCompatActivity {
 
@@ -9,5 +10,8 @@ public class WelcomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+
+        TextView welcomeMessageView = findViewById(R.id.welcome_text);
+        welcomeMessageView.setText(R.string.workshop_welcome);
     }
 }
