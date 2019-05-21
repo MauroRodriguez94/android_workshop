@@ -61,7 +61,8 @@ Desde la segunda pantalla, obtener el extra y mostrarlo en el mensaje de bienven
 https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws10.png
 
 
-Proximamente: 
+## Proximamente: 
+- Jugar con el constraint layout para armar una ui de bienvenida más copada
 - Armar una clase que valide que usuario y contraseña tengan data
 - Armar un test de esa clase
 - Si hay un error ir a otra activity de error pero mediante deeplink
