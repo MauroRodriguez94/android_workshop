@@ -60,6 +60,23 @@ Desde la primer pantalla, pasar el nombre de usuario mediante un extra. <br>
 Desde la segunda pantalla, obtener el extra y mostrarlo en el mensaje de bienvenida.
 https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws10.png?raw=true
 
+### Parte 11 - Imágenes
+Descargar [las imágenes](https://drive.google.com/drive/folders/1crIXLV7s0AlF0kPP5RmJXG3DbeTLaHzF?usp=sharing) y copiarlas al proyecto. <br>
+Agregar el asset a la vista de bienvenida
+https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws11.png?raw=true
+
+### Parte 12 - Localización
+Agregar las traducciones para Inglés e Inglés de Nueva Zelanda. Por default usar Español
+https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws12-1.png?raw=true
+https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws12-2.png?raw=true
+https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws12-3.png?raw=true
+
+### Parte 13 - Rotacióm
+Cambiar los colores para cuando la pantalla está en modo landscape
+https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws13.png?raw=true
+
+
+
 
 ## Proximamente: 
 - Jugar con el constraint layout para armar una ui de bienvenida más copada
@@ -68,8 +85,6 @@ https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots
 - Si hay un error ir a otra activity de error pero mediante deeplink
 - En la activity de error, agregar una imagen de fallo. 
 - Demostrar el ciclo de vida. 
-- Agregar localizaciones y cambiar el idioma del dispositivo
-- Agregar distintos colores para land y port para demostrar rotacion. 
 
 
 
