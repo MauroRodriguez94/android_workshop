@@ -26,7 +26,9 @@ public class LoginActivity extends AppCompatActivity {
                 String userName = userNameInput.getText().toString();
                 String password = passwordInput.getText().toString();
                 Log.d("Workshop Log", "Boton clickeado: " + userName + " - " + password);
-                goToWelcomeScreen(userName);
+                if (new LoginValidator().isValidLogin(userName, password)) {
+                    goToWelcomeScreen(userName);
+                }
             }
         });
     }
