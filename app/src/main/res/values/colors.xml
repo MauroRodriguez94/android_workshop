@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#5f8fe3</color>
     <color name="workshop_white">#FFFFFF</color>
+    <color name="workshop_error">#e2361d</color>
 </resources>

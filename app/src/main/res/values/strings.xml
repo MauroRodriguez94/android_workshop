@@ -4,4 +4,5 @@
     <string name="workshop_password">Contraseña</string>
     <string name="workshop_user_name">Nombre de usuario</string>
     <string name="workshop_welcome">Bienvenide %1$s a nuestro workshop!</string>
+    <string name="workshop_data_missing">Falta llenar datos</string>
 </resources>
