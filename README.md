@@ -71,19 +71,22 @@ https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots
 https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws12-2.png?raw=true
 https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws12-3.png?raw=true
 
-### Parte 13 - Rotacióm
+### Parte 13 - Rotación
 Cambiar los colores para cuando la pantalla está en modo landscape
 https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots/ws13.png?raw=true
 
+### Parte 14 - Testing
+Crear una clase para validar que el campo user name y password tengan data <br>
+Armar un test de JUnit para esta clase
+
+### Parte 15 - Testing
+Cuando username y password validan ir a la Welcome Activity. <br>
+Cuando no validan, abrir una activity que muestre un error usando el deeplink `workshop://error` 
 
 
 
 ## Proximamente: 
 - Jugar con el constraint layout para armar una ui de bienvenida más copada
-- Armar una clase que valide que usuario y contraseña tengan data
-- Armar un test de esa clase
-- Si hay un error ir a otra activity de error pero mediante deeplink
-- En la activity de error, agregar una imagen de fallo. 
 - Demostrar el ciclo de vida. 
 
 
