@@ -79,7 +79,7 @@ https://github.com/lugarbarini/android_workshop/blob/master/workshop_screenshots
 Crear una clase para validar que el campo user name y password tengan data <br>
 Armar un test de JUnit para esta clase
 
-### Parte 15 - Testing
+### Parte 15 - Deeplinks
 Cuando username y password validan ir a la Welcome Activity. <br>
 Cuando no validan, abrir una activity que muestre un error usando el deeplink `workshop://error` 
 
