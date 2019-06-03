@@ -1,6 +1,7 @@
 package com.example.androidworkshop;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -28,9 +29,15 @@ public class LoginActivity extends AppCompatActivity {
                 Log.d("Workshop Log", "Boton clickeado: " + userName + " - " + password);
                 if (new LoginValidator().isValidLogin(userName, password)) {
                     goToWelcomeScreen(userName);
+                } else {
+                    goToErrorScreen();
                 }
             }
         });
+    }
+
+    private void goToErrorScreen() {
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("workshop://error")));
     }
 
     private void goToWelcomeScreen(String userName) {
